@@ -15,7 +15,7 @@ body {
     margin: 0px;
 }
 
-.body-padding {
+.content-padding {
     padding-left: 14rem;
     padding-right: 14rem;
 }
@@ -134,4 +134,35 @@ h1 {
 .block-text {
     text-align: center;
     max-width: 150px;
+}
+
+.quote-section-bg-color {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-wrapper {
+    max-width: 728px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 0rem;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 250;
+}
+
+.quote-by {
+    font-size: 18px;
+    font-weight: 500;
+    align-self: flex-end;
+    padding: 0rem 2rem;
 }
