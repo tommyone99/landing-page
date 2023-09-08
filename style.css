@@ -12,8 +12,15 @@ ul {
 }
 
 body {
+    margin: 0px;
+}
+
+.body-padding {
     padding-left: 14rem;
     padding-right: 14rem;
+}
+
+.hero-bg-color {
     background-color: #1F2937;
 }
 
@@ -27,6 +34,13 @@ body {
     font-weight: 700;
     align-self: center;
     color:#F9FAF8;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    color:#1F2937;
+    align-items: center;
 }
 
 .padding {
@@ -49,6 +63,7 @@ body {
 .hero-content {
     display: flex;
     gap: 14rem;
+    padding-bottom: 55px;
 }
 
 .hero-main {
@@ -60,6 +75,17 @@ body {
 .hero-content-img {
     flex: 1 1 auto;
     margin-left: auto;
+}
+
+
+.call-to-action-heading {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.blocks-row {
+    display: flex;
+    gap: 16px;
 }
 
 img {
@@ -86,4 +112,11 @@ h1 {
 p {
     font-size: 18px;
     color:#E5E7EB;
+}
+
+.block {
+    border: 2px solid #3882F6;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
 }
