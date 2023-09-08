@@ -109,9 +109,9 @@ h1 {
     margin: 0px;
 }
 
-p {
+.hero-secondary {
     font-size: 18px;
-    color:#E5E7EB;
+    color:grey;
 }
 
 .block {
@@ -119,4 +119,13 @@ p {
     width: 100px;
     height: 100px;
     border-radius: 10px;
+}
+
+.block-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.block-text {
+    max-width: 100px;
 }
