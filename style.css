@@ -202,3 +202,15 @@ h1 {
 #inverted-button {
     border: white solid 2px;
 }
+
+.footer-bg-color {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0rem;
+}
+
